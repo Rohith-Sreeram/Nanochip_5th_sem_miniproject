@@ -1,0 +1,4 @@
+#include <string.h>
+void score(double * input, double * output) {
+    memcpy(output, (double[]){3.976030550692553 + input[0] * 0.7649538069543562 + input[1] * -0.10793970623322668, -0.5988606224831408 + input[0] * 4.246686140717931 + input[1] * 5.574331172301329, -3.377169928209426 + input[0] * -5.011639947672288 + input[1] * -5.4663914660681066}, 3 * sizeof(double));
+}
